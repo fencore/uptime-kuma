@@ -12,7 +12,7 @@
                 <h2 class="group-title">
                     <font-awesome-icon v-if="editMode && showGroupDrag" icon="arrows-alt-v" class="action drag me-3" />
                     <font-awesome-icon v-if="editMode" icon="times" class="action remove me-3" @click="removeGroup(group.index)" />
-                    <Editable v-model="group.element.name" :contenteditable="editMode" tag="span" />
+                    <Editable v-model="group.element.name" :contenteditable="editMode" tag="span" class="shadow-box" />
                 </h2>
 
                 <div class="shadow-box monitor-list mt-4 position-relative">
