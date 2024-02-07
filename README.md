@@ -1,1 +1,1 @@
-A fork of <a href="https://github.com/louislam/uptime-kuma">Uptime Kuma</a> that makes minor styling changes to status pages in order to improve accessibility.
+A fork of <a href="https://github.com/louislam/uptime-kuma">Uptime Kuma</a> that makes minor styling changes to status pages in order to improve accessibility when using background images or light mode.
